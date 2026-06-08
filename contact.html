@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Запись</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html" class="menu-link">Главная</a>
+        <a href="teachers.html" class="menu-link">Преподаватели</a>
+        <a href="schedule.html" class="menu-link">Расписание</a>
+        <a href="contact.html" class="menu-link">Запись</a>
+    </div>
+
+    <div class="section form-container">
+        <h2>Запись на курс</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="tel" placeholder="Номер телефона" required>
+            <select>
+                <option>Английский</option><option>Немецкий</option>
+                <option>Французский</option><option>Итальянский</option>
+            </select>
+            <select>
+                <option>A1</option><option>A2</option><option>B1</option><option>B2</option>
+            </select>
+            <button type="button" onclick="alert('Заявка принята! Мы перезвоним.')">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
