@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8CC1FF;
+    color: #421515;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    padding: 2rem 1.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: 2px solid #421515;
+    padding-bottom: 0.75rem;
+}
+
+.menu a {
+    color: #421515;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.menu a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+    border-left: 6px solid #421515;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #2d0e0e;
+}
+
+.hero button {
+    background: #421515;
+    border: none;
+    padding: 0.8rem 2rem;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #8CC1FF;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    background: #2d0e0e;
+    color: white;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    color: #421515;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.lang-card {
+    width: 180px;
+    padding: 1.5rem 0;
+    border-top: 3px solid #421515;
+}
+
+.lang-card h3 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.teachers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2.5rem;
+}
+
+.teacher-card {
+    padding: 0;
+    text-align: left;
+}
+
+.teacher-card img {
+    width: 100%;
+    border: 1px solid #421515;
+}
+
+.photo-label {
+    font-size: 0.7rem;
+    margin: 0.5rem 0.2rem;
+    color: #421515;
+}
+
+.teacher-card h3 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0.3rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+}
+
+th, td {
+    border: 1px solid #421515;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background: #421515;
+    color: #8CC1FF;
+    font-weight: normal;
+}
+
+ul {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #421515;
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid #421515;
+}
+
+button {
+    background: #421515;
+    color: #8CC1FF;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2d0e0e;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 1rem;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .menu {
+        justify-content: center;
+    }
+}
